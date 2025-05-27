@@ -1,6 +1,6 @@
 /**************************************************************************
 Project: Survival Analysis Using Synthetic Breast Cancer mCODE Data
-Author: [Your Name]
+Author: Sohel Ahmed, Email: sohelcu06@gmail.com
 Description: This program imports, merges, analyzes, and models synthetic
              breast cancer patient data for survival analysis using 
              Kaplan-Meier and Cox Proportional Hazards Models.
@@ -25,7 +25,7 @@ libname mydata "your/local/path/";
 %import_csv(encounters);
 %import_csv(observations);
 
-/* Step 1.5: Add patient age as of Jan 1, 2025 */
+/* Step 1.5: Add patient age as of Jan 1, 2020 */
 data mydata.patients_with_age;
     set mydata.patients;
     format birth_date yymmdd10.;
