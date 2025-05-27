@@ -74,6 +74,11 @@ This project uses publicly available **synthetic breast cancer patient data** ge
 - Preparation of production-ready analytics code for pharma/biotech settings
 
 ---
+### 📊 Results Snapshot
+
+The key findings and plots from the survival analysis can be viewed here:
+[📄 Download PDF Results](results/Survival_Analysis_Results_BreastCancer.pdf)
+
 
 ## 📫 Contact
 For questions or collaborations, feel free to reach out via [https://github.com/sohel10]) or sohelcu06@gmail.com.
